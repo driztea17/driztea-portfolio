@@ -15,7 +15,9 @@
   cursor: crosshair;
 }
 
-
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Karla", Arial, sans-serif;
