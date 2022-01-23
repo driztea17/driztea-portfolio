@@ -11,6 +11,12 @@
 *	Edit this section
 *
 * ======================================================= */
+* {
+  cursor: crosshair;
+}
+
+
+
 body {
   font-family: "Karla", Arial, sans-serif;
   line-height: 1.8;
@@ -18,7 +24,9 @@ body {
   font-weight: 400;
   background: #fafafa;
   color: gray; }
-  body.menu-show {
+
+  body.menu-show 
+  {
     overflow: hidden;
     position: fixed;
     height: 100%;
