@@ -24,6 +24,27 @@ body {
     height: 100%;
     width: 100%; }
 
+/* customs scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: transparent; 
+}
+
 #colorlib-wrapper {
   height: 100%;
   width: 100%;
