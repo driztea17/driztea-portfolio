@@ -485,6 +485,16 @@ header {
   background-repeat: no-repeat;
   position: relative; }
 
+/* @media (max-width:768px){
+  .animate-box{
+    width: 100%;
+    height: auto;
+  }
+  .work-entry .work-img .display-t{
+    vertical-align: bottom;
+  }
+} */
+
 .progress-head {
   font-size: 22px; }
 
@@ -746,7 +756,7 @@ header {
     text-decoration: none; }
     .work-entry .work-img .display-t {
       display: table-cell;
-      vertical-align: middle;
+      vertical-align: bottom;
       height: 700px;
       position: relative;
       z-index: 0; }
